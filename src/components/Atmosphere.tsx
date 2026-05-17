@@ -1,10 +1,14 @@
 "use client";
 
 import { motion } from "framer-motion";
+import AmbientStars from "./AmbientStars";
 
 export default function Atmosphere() {
   return (
     <div className="fixed inset-0 z-0 pointer-events-none overflow-hidden">
+      {/* Dense star field – rendered on canvas for GPU compositing */}
+      <AmbientStars />
+
       {/* Background Gradient Base */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(8,8,10,1)_0%,rgba(0,0,0,1)_100%)]" />
 
@@ -48,7 +52,7 @@ export default function Atmosphere() {
         }}
         className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full bg-[radial-gradient(circle_at_50%_50%,rgba(0,242,255,0.02)_0%,transparent_50%)]"
       />
-      
+
       {/* Grid Overlay */}
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff03_1px,transparent_1px),linear-gradient(to_bottom,#ffffff03_1px,transparent_1px)] bg-[size:40px_40px] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)]" />
     </div>

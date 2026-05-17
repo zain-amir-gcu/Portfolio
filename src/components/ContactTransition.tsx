@@ -127,7 +127,7 @@ export default function ContactTransition() {
             Interested in collaboration?
           </h2>
           <p className="mt-6 text-neutral-500 font-mono text-[10px] md:text-xs tracking-[0.6em] uppercase opacity-60">
-            Let's Architect the Future Together
+            Let&apos;s Architect the Future Together
           </p>
         </div>
 

@@ -404,9 +404,7 @@ function FloatingKeywords() {
   );
 }
 
-/* ─────────────────────── MarqueeRow ─────────────────────── */
-
-
+/* ─────────────────────── MarqueeRow (commented out) ───────────────────────
 const allSkills = [
   { name: "React",      icon: <SiReact />,      color: "#61DAFB" },
   { name: "Next.js",    icon: <SiNextdotjs />,  color: "#FFFFFF" },
@@ -423,7 +421,7 @@ const allSkills = [
   { name: "Firebase",   icon: <SiFirebase />,   color: "#FFCA28" },
   { name: "Vercel",     icon: <SiVercel />,     color: "#FFFFFF" },
   { name: "HTML5",      icon: <SiHtml5 />,      color: "#E34F26" },
-  { name: "CSS",        icon: <SiCss />,        color: "#1572B6" },
+  { name: "CSS",        icon: <SiCss />,         color: "#1572B6" },
 ];
 
 function MarqueeRow({ reverse = false, speed = 30 }: { reverse?: boolean; speed?: number }) {
@@ -449,6 +447,7 @@ function MarqueeRow({ reverse = false, speed = 30 }: { reverse?: boolean; speed?
     </div>
   );
 }
+────────────────────────────────────────────────────────────────────────── */
 
 /* ─────────────────────── Main Section ─────────────────────── */
 
@@ -534,10 +533,10 @@ export default function Skills() {
       </motion.div>
 
       {/* ── marquee rows ── */}
-      <div className="relative z-10 w-full mt-24 flex flex-col gap-4">
+      {/* <div className="relative z-10 w-full mt-24 flex flex-col gap-4">
         <MarqueeRow speed={25} />
         <MarqueeRow reverse speed={30} />
-      </div>
+      </div> */}
     </section>
   );
 }
