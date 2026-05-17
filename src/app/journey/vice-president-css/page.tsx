@@ -6,7 +6,7 @@ import { useState, useEffect } from "react";
 import { 
   FaArrowLeft, FaLinkedin, 
   FaChartLine, FaFilm, FaUsers, FaComments,
-  FaAward, FaBullseye, FaLayerGroup
+  FaAward, FaLayerGroup
 } from "react-icons/fa";
 
 // Fade in up animation preset

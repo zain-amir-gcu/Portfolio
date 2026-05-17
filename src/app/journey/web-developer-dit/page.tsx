@@ -4,9 +4,9 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import { 
-  FaArrowLeft, FaExternalLinkAlt, FaLinkedin, 
-  FaCode, FaDatabase, FaServer, FaCogs, 
-  FaDesktop, FaLayerGroup, FaArrowRight
+  FaArrowLeft, FaLinkedin, 
+  FaCode, FaServer, FaCogs, 
+  FaLayerGroup, FaArrowRight
 } from "react-icons/fa";
 import { SiMongodb, SiMysql, SiTailwindcss, SiFigma } from "react-icons/si";
 

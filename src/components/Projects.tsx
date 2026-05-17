@@ -163,7 +163,6 @@ function HorizontalJourney({ experiences }: { experiences: Experience[] }) {
     const el = mobileScrollRef.current;
     if (!el) return;
     const scrollLeft = el.scrollLeft;
-    const width = el.clientWidth;
     const newIdx = Math.round(scrollLeft / (290 + 24)); // card width (290) + gap (24)
     setActiveMobileIdx(Math.min(Math.max(newIdx, 0), experiences.length - 1));
   };
@@ -623,7 +622,7 @@ export default function Projects() {
 
               {/* Philosophy quote */}
               <div className="relative p-7 rounded-2xl bg-gradient-to-br from-white/[0.03] to-transparent border border-white/[0.05] mt-auto">
-                <div className="absolute top-4 left-4 text-4xl text-white/5 font-serif leading-none">"</div>
+                <div className="absolute top-4 left-4 text-4xl text-white/5 font-serif leading-none">&quot;</div>
                 <p className="text-[14px] text-neutral-400 leading-[1.8] font-light italic relative z-10 pl-4 border-l-2 border-[#00f2ff]/20">
                   I believe in setting the standard for excellence—building software, leading teams, and delivering solutions that redefine what great work looks like.
                 </p>

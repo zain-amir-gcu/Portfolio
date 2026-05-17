@@ -5,9 +5,9 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 import { 
   FaArrowLeft, FaLinkedin, 
-  FaUsers, FaUniversity, FaAward, 
+  FaUniversity, FaAward, 
   FaHandshake, FaBullhorn, FaBriefcase, 
-  FaNetworkWired, FaCheckCircle
+  FaNetworkWired
 } from "react-icons/fa";
 
 // Fade in up animation preset
