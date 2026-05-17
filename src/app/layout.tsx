@@ -13,8 +13,11 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Zain Amir | Software Engineer & Creative Developer",
+  title: "Zain Amir",
   description: "Senior Creative Developer specializing in Next.js, Framer Motion, and high-performance scrollytelling experiences.",
+  icons: {
+    icon: "/zain.png",
+  },
 };
 
 export default function RootLayout({
