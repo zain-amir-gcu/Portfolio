@@ -341,7 +341,7 @@ export default function VicePresidentCSS() {
               {/* ACTION BUTTONS */}
               <div className="flex flex-col gap-4">
                 <a 
-                  href="#"
+                  href="https://www.linkedin.com/posts/zainamirr_%F0%9D%90%93%F0%9D%90%A1%F0%9D%90%AB%F0%9D%90%A2%F0%9D%90%A5%F0%9D%90%A5%F0%9D%90%9E%F0%9D%90%9D-%F0%9D%90%AD%F0%9D%90%A8-%F0%9D%90%AC%F0%9D%90%A1%F0%9D%90%9A%F0%9D%90%AB%F0%9D%90%9E-%F0%9D%90%AD%F0%9D%90%A1%F0%9D%90%9A%F0%9D%90%AD-activity-7369072834830094337-RYse?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFK30RgB8PilQLuk6JCej-IJp_2JlTPEk3M"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full py-4 px-6 rounded-xl bg-gradient-to-r from-orange-500 to-amber-500 text-black font-bold text-sm uppercase tracking-widest text-center shadow-[0_0_20px_rgba(249,115,22,0.25)] hover:shadow-[0_0_35px_rgba(249,115,22,0.45)] hover:-translate-y-0.5 transition-all duration-300 flex items-center justify-center gap-3 font-mono"

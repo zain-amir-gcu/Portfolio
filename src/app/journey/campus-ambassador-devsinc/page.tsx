@@ -304,7 +304,7 @@ export default function CampusAmbassadorDevsinc() {
               {/* ACTION BUTTONS */}
               <div className="flex flex-col gap-4">
                 <a 
-                  href="https://www.linkedin.com/posts/zainamirr_campusambassador-devsinc-gcuhistory-activity-7402094209428209600-abcd?utm_source=social_share_send"
+                  href="https://www.linkedin.com/posts/zainamirr_internshipjourney-meanstackdeveloper-gculahore-activity-7353705506772828163-Xio9?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFK30RgB8PilQLuk6JCej-IJp_2JlTPEk3M"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full py-4 px-6 rounded-xl bg-gradient-to-r from-orange-500 to-amber-500 text-black font-bold text-sm uppercase tracking-widest text-center shadow-[0_0_20px_rgba(249,115,22,0.25)] hover:shadow-[0_0_35px_rgba(249,115,22,0.45)] hover:-translate-y-0.5 transition-all duration-300 flex items-center justify-center gap-3 font-mono"
