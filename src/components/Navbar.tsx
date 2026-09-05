@@ -35,7 +35,7 @@ export default function Navbar() {
 
       <div className="flex items-center gap-4 md:gap-6 ml-auto md:ml-0">
         <a
-          href="https://github.com/zainamirr"
+          href="https://github.com/zain-amirr"
           target="_blank"
           rel="noopener noreferrer"
           className="text-neutral-500 hover:text-[#00f2ff] transition-all duration-300 hover:scale-110"

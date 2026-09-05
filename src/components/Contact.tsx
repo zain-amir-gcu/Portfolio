@@ -123,7 +123,7 @@ export default function Contact() {
     {
       name: "GitHub",
       value: "zainamirr",
-      href: "https://github.com/zainamirr",
+      href: "https://github.com/zain-amirr",
       icon: <FaGithub />,
       accent: "#7000ff",
     },
